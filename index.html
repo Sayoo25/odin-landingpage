@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Egglers Landing Page</title>
+</head>
+
+<body>
+    
+    <div class="header">
+        <div class="logo">
+            <img src="images/dazzle.png" class="logo-image" alt="Egglers Logo">
+        </div>
+        <div class="info">
+            <div class="one">
+                header link one
+            </div>
+            <div class="two">
+                header link two
+            </div>
+            <div class="three">
+                header link three
+            </div>
+        </div>
+    </div>
+
+    <div class="front">
+        <div class="head1">
+            <div class="mainhead">
+                <h1>Egglers are awesome!</h1>
+            </div>
+            <div class="headcaption">
+                This website has some subtext that should go here. However, for now, think Dr. Suess and Green Eggs and Ham.
+            </div>
+        </div>
+        <img src="images/egg.jpg" class="main-image">
+    </div>
+
+    <div class="page-body">
+        <div class="head2">
+            <h3>Eggs might turn green with blue coloring.</h3>
+        </div>
+        <div class="ills">
+            <div class="ill1">
+                <img src="images/egg-plate.jpg" class="ill1-image" alt="Picture of sunny side up egg">
+                <div class="fact1">Random egg fact.</div>
+            </div>
+            <div class="ill2">
+                <img src="images/egg.jpg" class="ill2-image" alt="Picture of sunny side up egg">
+                <div class="fact2">Random egg fact.</div>
+            </div>
+            <div class="ill3">
+                <img src="images/egg-plate.jpg" class="ill3-image" alt="Picture of sunny side up egg">
+                <div class="fact3">Random egg fact.</div>
+            </div>
+            <div class="ill4">
+                <img src="images/egg.jpg" class="ill4-image" alt="Picture of sunny side up egg">
+                <div class="fact4">Random egg fact.</div>
+            </div>
+        </div>    
+    </div>
+
+    <div class="inspo">
+        <div class="quote">“Would you like them in a house? Would you like them with a mouse?”</div>
+        <div class="author">Dr. Suess</div>
+    </div>
+    
+    <div class="action">
+        <div class="action-text">
+            <div class="action1">
+                <h3>Call to action! It's time!</h3>
+            </div>
+            <div class="action2">
+                Sign up for our product. Try egglers in a house or maybe with a mouse. Just click that button!
+            </div>
+        </div>    
+        <div class="button">
+            <button>Get an Eggler</button>
+        </div>
+    </div>
+
+        <script>
+            const button=document.querySelector("button");
+
+            function greet() {
+                const name=prompt("What is your name?");
+                alert(`Hello ${name}. Welcome to Egglers! Your Eggler will be delivered any moment now.`);
+            }
+            button.addEventListener("click",greet);
+        </script>
+</body>
+
+</html>
